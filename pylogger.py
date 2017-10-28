@@ -1,10 +1,10 @@
 
 
-def log():
+def log(string_to_print):
     debug = True
 
     if(debug):
-        print("Logged")
+        print(string_to_print)
 
 
-log()
+log("Hello World")
